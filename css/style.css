@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;600&display=swap');
+:root{ 
+	--color-amarillo: #FFBE00;
+	--color-morado: #4F12C0;
+}
+html{
+	scroll-behavior: smooth;
+}
+header{
+	position:fixed relative!important;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-image: url("../img/dots-min.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#nav1{
+	
+	background-color: #FFD600!important;
+}
+	
+body img{
+	border-radius: 5%;
+	transition-duration: 0.5s;
+}
+
+body h4{
+	font-weight:300;
+	opacity: 80%;
+}
+.container h2{
+	padding-top: 60px;
+	font-family: 'Anton', sans-serif;
+	font-weight:normal;
+	font-size: 45px;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+	text-decoration: none!important;
+	color: 000 !important;
+}
+
+h2{
+	padding-top: 60px;
+	font-family: 'Anton', sans-serif;
+	font-weight:normal;
+	font-size: 45px;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+	text-decoration: none!important;
+	color: 000 !important;
+}
+
+header{
+	background-color: var(--color-morado);
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	box-shadow: 0px 5px 15px #B3B3B3;
+}
+
+
+.btn-dark{
+	background-color: var(--color-morado);;
+	border: none;
+	text-transform: uppercase;
+}
+
+.btn-dark:hover{
+	background-color: var(--color-amarillo);
+	border: none;
+	color: #000;
+	text-transform: uppercase;
+}
+
+#sec1 img{
+	border: solid 10px transparent;
+	transition-duration: 0.1s;
+}
+
+
+footer{
+	background: var(--color-morado);;
+   	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 50px 0px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 3%;
+}
+
+footer img{
+	width: 5%;
+	
+}
+
+.navbar-brand img{
+	margin-left: 2%;
+}
+
+.navbar-nav .las{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 40px;
+	color: var(--color-amarillo);
+}
+
+.navbar-nav .lar{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 40px;
+	color: var(--color-amarillo);
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.45);
+	padding: 8% 0;
+}
+
+
+p{
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 15px;
+	padding-bottom: 10px;
+	text-decoration: none!important;
+}
+
+.lab {
+	font-size: 50px;
+	text-align: left;
+}
+
+.display{
+	opacity: 0;
+}
+
+#acerca{
+	background-color: rgba(137,117,148,0.50);
+}
+
+#acerca p{
+	padding-bottom: 5%;
+}
+
+.las{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 160px;
+	margin-top: 3%;
+	padding-left: 5%;
+}
+
+#gallery1{
+	margin-top: 5%;
+}
+
+h3{
+	font-family:'Open Sans', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.ilus h3{
+	font-family:'Open Sans', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	padding-top: 3%;
+}
+
+.ilus p{
+	padding-bottom: 3%;
+}
+
+.ilus{
+	background-color: rgba(137,117,148,0.50);
+	margin-top: 3%;
+}
+
+#servicios{
+	margin-bottom: 3%;
+}
